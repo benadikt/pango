@@ -79,6 +79,5 @@ class calculator:
                     print("Bad file format in line:" + s)
 if __name__ == "__main__":    
     c=calculator()
-    print(c.calc("1++"))
-    # c.calc_file(r"./input.txt")
+    c.calc_file(r"./input.txt")
     
