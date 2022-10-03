@@ -77,7 +77,5 @@ class calculator:
                     print(s[:index+1] + str(self.calc(s[index+1:])))
                 else:
                     print("Bad file format in line:" + s)
-if __name__ == "__main__":    
-    c=calculator()
-    c.calc_file(r"./input.txt")
+
     
